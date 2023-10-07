@@ -6,3 +6,4 @@ let nickname = "Amanda"
 
 // concatenando mensagem fixa + variável
 console.log("Bem vindo " + nickname)
+console.log(nickname + "entrou no servidor")
