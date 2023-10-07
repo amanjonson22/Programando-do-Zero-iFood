@@ -5,6 +5,8 @@ let temCaneta = true
 let memoria = 128
 let cor = "prata"
 let idioma = "PT-BR"
+let ligado = true
+let bateria = 51
 
 // objeto - janela
 let fechada = true
