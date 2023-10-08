@@ -8,18 +8,8 @@ const aPlanta = "A planta: "
 const clima = "É de clima: "
 const colheita = "Pode colher após: "
 
-console.log(aPlanta + plantas[0][0])
-console.log(clima + plantas[0][1])
-console.log(colheita + plantas[0][2])
+let n1 = prompt("Digite um número de 0 a 2: ");
 
-console.log()
-
-console.log(aPlanta + plantas[1][0])
-console.log(clima + plantas[1][1])
-console.log(colheita + plantas[1][2])
-
-console.log()
-
-console.log(aPlanta + plantas[2][0])
-console.log(clima + plantas[2][1])
-console.log(colheita + plantas[2][2])
+console.log(aPlanta + plantas[n1][0])
+console.log(clima + plantas[n1][1])
+console.log(colheita + plantas[n1][2])
